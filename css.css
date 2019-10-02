@@ -1,8 +1,8 @@
 body {  
     margin: 0;  
     background-image: url('bg.png');    
-	background-size:30%; 
-    background-color: #8ddfda;  
+	background-size: 40%; 
+	background-color: #8ddfda;
 } 
 
 .hat {
@@ -31,7 +31,7 @@ body {
     left: 50%;
     z-index: 1;
     transform: translate(-50%, -50%);
-    background: url(https://s.pximg.net/www/js/fanbox/2e1a6c174315166e13faac967c1ffd43.svg) center center / 148px 20px no-repeat;
+    background: url(top.svg) center center / 148px 23px no-repeat;
 }
 
 .imgframe {
@@ -144,7 +144,7 @@ body {
 
 @media (max-width: 767px){
 body {
-	background-size:70%;
+	background-size:100%;
 }
 .hat {
     height: 48px;
